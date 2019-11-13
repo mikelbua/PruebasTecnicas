@@ -1,8 +1,7 @@
+
 ->Un <a> enlace a una pagina externa.
-
-->un <a> enlace interno al proyecto web.
-
-->Enlace <a> que empieza por # y busca un ID. tel, email -> a:mailto.
+->un <a> enlace interno al proyecto web.Enlace <a> que empieza por # y busca un ID.
+->un <a> tel, email -> a:mailto.
 
 -> <button>(onclick) que llame a una funcion y haga algo.
 
@@ -12,6 +11,7 @@
 
 -> <ol>ordered.
 -> <ul>unordered.
+-> <il>
 -> <dl> definition list.
 
 -> <div> contenedor en bloque que ocuprara por defecto todo el ancho de la pantalla.

@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!--Si el doctype es corto y simple esto significa que es HTML5-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  
+    <title>Titulo pruebatecnica</title>
+
+    <!-- la base para construir todas las rutas de esta pagina, en este caso desde a raiz '/' -->
+    <base href="/Pruebatecnica/">
+
+    <!--CSS estilos-->
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    
+<p style="color: red; font-size: 20px;">Esto es un texto con un estilo en linea color rojo tmaño 20px</p>
+<style>
+    /* aqui tambien se podria insertr codigo CSS
+     si escribes dos condiciones del mismo nivel ejecutara la ultima
+     las condicionessobre Id prevalecen ante las de class y las de class ante las demas
+     y la sentencia (!important) prevalece ante todas
+     !importan>id>class>style*/
+
+   p{
+     color:teal;
+    }
+    .textoRojo{
+        color: red;
+    }
+
+</style>
+<h1>CSS BASICO</h1>
+<h2>Ejemplo de especifidad de los CSS. inpeccionar con las herramientas de desarrollador para ver los parrafos.</h2>
+<br>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, iste est. Porro, quibusdam aliquam? Eligendi consequuntur expedita, a autem officiis accusantium sed tempora reprehenderit porro doloremque, pariatur velit dicta dolorum.</p>
+<p class="textoRojo"> ESTE TEXTO TIENE UNA CLASE QUE LE DA EL COLOR ROJO .Dolore facilis qui tempore aliquam vero atque labore asperiores sed dignissimos ullam, maiores illo placeat repellendus hic eaque rerum exercitationem consequatur distinctio, nihil accusamus! Porro, sed perferendis. Voluptatibus, atque sequi.</p>
+<p>Maiores ipsum soluta ipsam alias, saepe ratione optio laborum omnis, aliquid, impedit expedita earum facilis non iste accusamus veniam neque rem aut. Quasi omnis animi vel aperiam quisquam, saepe hic.</p>
+<p>Tenetur et deleniti eos, ipsa quibusdam totam accusamus magnam rem laboriosam fugit architecto qui ex vitae recusandae eaque fugiat vel magni. Sapiente optio dolorem tenetur fugit voluptates non voluptatum veritatis.</p>
+<p>Necessitatibus laudantium qui sapiente aspernatur ut explicabo vitae maiores cum ab ducimus eius dolore, quam quae a rem exercitationem repellendus voluptate esse vel dolores laboriosam, velit voluptatem aliquam! Aliquid, necessitatibus.</p>
+<br><br>
+<h2>Tipos de selectores</h2><br>
+<p>En este vídeo puedes ver los tipos de selectores, identificadores, clases y pseudoclases:Videotutorial </p><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ARaU6uGOa_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--
+  <nav>
+    <a href="/Ejemplos/css/animaciones.html">animaciones</a>
+  </nav>  
+-->
+
+<form method="get" action="Ejemplos/css/animaciones.html">
+    <button type="submit">Animaciones.html</button>
+</form>
+<form method="get" action="index.html">
+        <button type="submit">Volver al Index.html</button>
+</form>
+
+
+</body>
+</html>

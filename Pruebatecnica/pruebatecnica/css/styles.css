@@ -15,7 +15,8 @@ esto es un comentario de bloque.
 
 @keyframes example {
   from {background-color: red;}
-  to {background-color: yellow;}
+  to {background-color: yellow;
+      border-radius: 128px;}
 }
 
 .animation{
@@ -24,6 +25,7 @@ esto es un comentario de bloque.
   background-color: red;
   animation-name: example;
   animation-duration: 4s;
+
 }
 
 h1,h2,h3,h4,h5,h6{

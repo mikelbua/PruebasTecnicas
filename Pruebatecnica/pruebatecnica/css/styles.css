@@ -8,9 +8,22 @@ esto es un comentario de bloque.
 @licencia: mit
 */
 
-*{/*Esto es un reseteo para eliminar estilos todos los browser user agent*/
+*{/*Esto es un reseteo para eliminar todos los margin y padding por defecto : user-agent*/
   margin: 0;
   padding: 0;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.animation{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -42,7 +55,7 @@ body{
 }
 .parallax {
     /* The image used */
-    background-image: url("/images/fondoParadax.jpg");
+    background-image: url("/pruebatecnica/images/fondoParadax.jpg");
     /* Set a specific height */
     min-height: 400px; 
     /* Create the parallax scrolling effect */

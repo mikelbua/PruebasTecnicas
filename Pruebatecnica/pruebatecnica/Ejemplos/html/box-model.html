@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Titulo Box-Model</title>
+
+        <!-- la base para construir todas las rutas de esta pagina, en este caso desde a /Pruebatecnica/ -->
+        <base href="/Pruebatecnica/">
+        <!-- la base para construir todas las rutas de esta pagina, en este caso desde a  /Pruebatecnica/-->
+        <!--CSS-->
+        <link rel="stylesheet" href="css/styles.css">
+        <!--CSS-->
+    </head>
+    <body>
+        <style>
+            body{
+                padding: 25px;
+            }
+            p.prueba {
+                color: teal;
+                border: 5px solid green;
+                margin: 20px;
+                /*para los 4 lados*/
+                margin: 20px 40px;
+                /*20 ariba-abajo*/
+                margin: 20px 40px 50px;
+                /*20 ariba 40 a los lados y 50 abajo*/
+                margin: 20px 40px 50px 100px;
+                /*20 ariiba 40 derecha 50 abajo 100 izquierda*/
+                padding: 20px;
+            }
+            span {
+                border: 3px solid red;
+                padding: 5px;
+            }
+            p {
+                border: 2px solid teal;
+            }
+            .box {
+                display: inline-block;
+                box-sizing: border-box;
+                width: 100px;
+                height: 100px;
+
+                border: 2px solid purple;
+                border-radius: 15%;
+                background-color: rebeccapurple;
+
+                color: seashell;
+                text-align: center;
+                font-size: 5em;
+            }
+            .box:hover {
+                background-color: slategray;
+            }
+            section{
+                border: 1px solid rgb(65, 64, 64);
+                margin-bottom: 50px;
+                padding: 10px;
+                background-color: rgb(177, 169, 169);
+                border-radius: 5%;
+
+                -webkit-box-shadow: 15px 20px 29px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 15px 20px 29px 0px rgba(0,0,0,0.75);
+                box-shadow: 15px 20px 29px 0px rgba(0,0,0,0.75);
+            }
+            h2{
+                margin-left: 20px;
+            }
+        </style>
+
+        <h1>BOX-MODEL</h1>
+        <p class="prueba">Toda etiqueta HTML tienen una estructura de caja</p>
+        <section>
+            <h2>Elementos en linea o bloque</h2>
+            <p>
+                <code>Display es el atributo para gestionar si es linea o bloque. Existen muchos
+                    mas diplays, ejemplo: flexbox.</code>
+            </p>
+            <p>
+                *trick : usar el inspector para verlo.
+            </p>
+            <dl>
+                <dt>blcok</dt>
+                <dd>Elemento que ocupa todo el ancho que ocupa su elemento padre.</dd>
+                <dt>Inline</dt>
+                <dd>Elemento que ocupa lo que ocupe su contenido.</dd>
+                <dt>Inline-block</dt>
+                <dd>Es un hibrido entre los anteriores atributos.</dd>
+            </dl>
+            <p>Lorem
+                <span>ipsum dolor sit amet,</span>
+                consectetur adipisicing elit. Laboriosam laborum voluptates ad impedit ipsa,
+                corporis eum molestiae repellat assumenda at unde beatae dolor possimus adipisci
+                ipsum id hic ipsam accusamus.</p>
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+        </section>
+        <section>
+            <h2>Overflow</h2>
+            <p></p>
+        </section>
+        <nav>
+            <a href="Ejemplos/css/animaciones.html">Animaciones</a>
+            <a href="Ejemplos/css/CSSbasico.html">CSSbasico</a>
+            <a href="Ejemplos/css/CSSespecificidad.html">CSSespecificidad</a>
+            <a href="Ejemplos/css/CSSAvanzados.html">CSSavanzado</a>
+            <a href="index.html">Volver al index</a>
+        </nav>
+    </body>
+</html>

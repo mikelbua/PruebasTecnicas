@@ -8,6 +8,15 @@ esto es un comentario de bloque.
 @licencia: mit
 */
 
+/*ORDEN DEL CSS
+1-reset.
+2-@keyframes.
+3-TODAS las etiquetas estilos generales.
+4-Layouts
+5-clases
+6-ID Cosas mas especificas
+*/
+
 * {
     /*Esto es un reseteo para eliminar todos los margin y padding por defecto : user-agent*/
     margin: 0;

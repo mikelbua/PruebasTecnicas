@@ -14,6 +14,7 @@
 
         <!--CSS estilos-->
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="Ejemplos/html/style.css">
 
     </head>
     <body>
@@ -31,12 +32,17 @@
             .textoRojo {
                 color: red;
             }
+            body{
+                padding-left: 10px;
+            }
+            h2,h3{color: white;}
         </style>
         <h1>CSS BASICO</h1>
+        <hr>
         <h2>Ejemplo de especifidad de los CSS. inpeccionar con las herramientas de
             desarrollador para ver los parrafos.</h2>
         <br>
-        <p style="color: red; font-size: 20px;">Esto es un texto con un estilo EN LINEA color rojo tmaño 20px</p>
+        <p style="color: red; font-size: 20px;">Esto es un texto con un estilo EN LINEA color rojo tmaño 20px.</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, iste est.
             Porro, quibusdam aliquam? Eligendi consequuntur expedita, a autem officiis
             accusantium sed tempora reprehenderit porro doloremque, pariatur velit dicta
@@ -57,9 +63,47 @@
             esse vel dolores laboriosam, velit voluptatem aliquam! Aliquid, necessitatibus.</p>
         <br>
         <br>
+        <hr>
+        <section class="enlaces">
+                <h3>Tipos de enlaces</h3><br>
+                <ol>
+                    <il>
+                            <p>Enlace a una pagina web.</p>
+                        <span>
+                            <img
+                                class="iconotel"
+                                src="/pruebatecnica/images/w3school.png"
+                                alt="icono telefono">
+                            <a target="_blank"
+                                href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro">W3cSchools.com</a>
+                        </span>
+                    </il>
+                    <il>
+                        <span>
+                            <p>Enlace a una llamada de telefono.</p>
+                            <img
+                                class="iconotel"
+                                src="/pruebatecnica/images/iconoTel.png"
+                                alt="icono telefono">
+                            <a href="tel:+13174562564">317-456-2564 </a>
+                        </span>
+                    </il>
+                    <il>
+                        <span><p>Enlace a un email.</p>
+                            <img
+                                class="iconotel"
+                                src="/pruebatecnica/images/arrobaimage.png"
+                                alt="icono arroba">
+                            <a target="_blank"
+                                href="mailto:someone@example.com">Esto es un enlace a una cuenta de email.</a>
+                        </span>
+                    </il>
+                </ol>
+            </section>
+        <hr>
         <h2>Tipos de selectores</h2><br>
         <p>En este vídeo puedes ver los tipos de selectores, identificadores, clases y
-            pseudoclases:Videotutorial
+            pseudoclases:Videotutorial. Este video esta integrado en la pagina con un iframe.
         </p><br>
         <iframe
             width="560"
@@ -70,7 +114,7 @@
             allowfullscreen="allowfullscreen"></iframe>
         <br/>
         <br>
-        <h2>selector descendente A B</h2>
+        <h2>Selector descendente A B</h2>
         <div class="container">
             <p>Vamos a dar solo un estilo para estos parrafos que estan dentro de container<code>div.container</code>
             </p>
@@ -80,7 +124,7 @@
                 consequatur ullam natus praesentium impedit dignissimos corporis ab aut possimus
                 eaque, nihil quo distinctio unde!</p>
             <p class="especial">Esto es un PARRAFO de CLASS ESPECIAL.
-                <span class="especial">Y esto es un SPAN CLASS ESPECIAM DENTRO DE UN PARRAFO.
+                <span class="especial">Y esto es un SPAN CLASS ESPECIAL DENTRO DE UN PARRAFO.
                 </span>fugiat beatae iste officia eum iusto quaerat dolore nihil rerum possimus
                 quos mollitia, quo at sequi aliquid dolorum perspiciatis vitae maxime quibusdam
                 enim veritatis. Maxime, blanditiis minus!</p>
@@ -88,11 +132,16 @@
 
         <!-- <nav> <a href="/Ejemplos/css/animaciones.html">animaciones</a> </nav> -->
         <nav>
-                <a href="Ejemplos/css/animaciones.html">Animaciones</a>
-                <a href="Ejemplos/css/CSSespecificidad.html">CSSespecificidad</a>
-                <a href="/pruebatecnica/Ejemplos/html/box-model.html">Box-model</a>
-                <a href="index.html">Volver al index</a>
-            </nav> 
+            <a href="Ejemplos/css/animaciones.html">Animaciones</a>
+            <a href="/pruebatecnica/Ejemplos/html/etiquetas-basicas.html">Etiquetas basicas</a>    
+            <a href="Ejemplos/css/CSSAvanzados.html">CSSavanzado</a>
+            <a href="Ejemplos/css/CSSespecificidad.html">CSSespecificidad</a>
+            <a href="Ejemplos/html/box-model.html">Visualizacion</a>
+            <a href="/pruebatecnica/Ejemplos/html/posicionamiento.html">Posicionamiento</a>
+            <a href="https://caniuse.com/">caniuse.com</a>
+            <a href="/pruebatecnica/Ejemplos/js/game.html">Arkanoid Game</a>
+            <a href="/Pruebatecnica/pruebatecnica/index.html">Volver al index</a>
+        </nav>
 
 </body>
 </html>

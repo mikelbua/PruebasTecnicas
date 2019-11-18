@@ -174,4 +174,13 @@ nav {
     margin-right: 0;
     padding: 10px;
     color: aqua;
+    font-size: 14px;
+ }
+ nav a:hover{
+    font-size: 15px;
+ }
+
+ form{
+     border: 1px solid grey;
+     padding: 10px;
  }
